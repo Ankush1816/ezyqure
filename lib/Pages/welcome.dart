@@ -60,7 +60,7 @@ class _WelcomePageState extends State<WelcomePage> {
                       side: BorderSide(color: Color(0x00ffffff)),
                       borderRadius: BorderRadius.circular(50)
                   ),
-                  color: Colors.white,
+                  color:  Color(0xFF0040c2),
 
                   height: 60,
                   child: Text('login',style: TextStyle(fontWeight: FontWeight.w600,fontSize: 18),),
