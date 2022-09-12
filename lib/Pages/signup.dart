@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ezyqure/Pages/home_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 
@@ -40,18 +41,11 @@ class _SignupPageState extends State<SignupPage> {
                   SizedBox(
                     height: 30,
                   ),
-                  const Text(
-                    'Signup',
-                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                  ),
+                  Text('Sign up',style: GoogleFonts.notoSansJavanese(color: Colors.black87,fontWeight: FontWeight.w600,fontSize: 40)),
                   SizedBox(
                     height: 10,
                   ),
-                  Text(
-                    'Create a new account',
-                    style: TextStyle(
-                        fontSize: 15, color: Colors.grey.withOpacity(0.8)),
-                  ),
+                  Text('Create a new account',style: GoogleFonts.notoSansJavanese(color: Colors.grey.withOpacity(0.8),fontWeight: FontWeight.normal,fontSize: 15)),
                   SizedBox(
                     height: 20,
                   ),
@@ -84,12 +78,12 @@ class _SignupPageState extends State<SignupPage> {
                   },
                   child: Text('Submit')),
               SizedBox(
-                height: 50,
+                height: 20,
               ),
               SignInButtonBuilder(
                 backgroundColor: Colors.blue,
                 onPressed: () {},
-                text: 'Signup with Google',
+                text: 'Sign up with Google',
                 icon: Icons.usb,
                 image: Image.network(
                   'https://i.postimg.cc/tRSMjWx7/download.png',

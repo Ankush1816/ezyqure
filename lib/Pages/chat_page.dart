@@ -13,7 +13,7 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: PreferredSize(child: getAppbar(), preferredSize: Size.fromHeight(0),),
+      appBar: AppBar(backgroundColor: Color(0xFF0040c2),),
       body: getbody(),
     );
   }

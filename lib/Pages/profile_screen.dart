@@ -11,12 +11,13 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: PreferredSize(
-        child: getAppbar(),
-        preferredSize: Size.fromHeight(200),
-      ),
-    );
+        backgroundColor: Colors.white,
+        appBar: AppBar(
+          backgroundColor: Color(0xFF0040c2),
+          actions: [
+            IconButton(onPressed: (){}, icon: Icon(Icons.post_add))
+          ],
+        ));
   }
 }
 
@@ -30,9 +31,9 @@ getAppbar() {
           Container(
             width: 75,
             height: 65,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: Colors.grey)
-            ),
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(color: Colors.grey)),
           )
         ],
       ),

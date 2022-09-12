@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "490311922650",
+    "project_id": "ezyqure-6ba19",
+    "storage_bucket": "ezyqure-6ba19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490311922650:android:b5a7065c3fae5273be06e3",
+        "android_client_info": {
+          "package_name": "com.ank.ezyqure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490311922650-mfqkgjppfne8j5tlpbsemnrnl5vusd3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ank.ezyqure",
+            "certificate_hash": "1e9170f4a1a9db510d69fd9119ddaf03c7cc9d9c"
+          }
+        },
+        {
+          "client_id": "490311922650-n3mbitqhmr7t3c01dl5ijabbm1650qpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKUgNP05SWpbBmqmkUAG6diYDIEzNZA3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490311922650-n3mbitqhmr7t3c01dl5ijabbm1650qpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

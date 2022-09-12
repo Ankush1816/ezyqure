@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:ezyqure/Pages/login.dart';
 import 'package:flutter/material.dart';
 import 'package:ezyqure/Pages/welcome.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
 
@@ -31,10 +31,10 @@ class _SplashState extends State<Splash> {
           children: [
             Image.network('https://i.postimg.cc/bNfccbWQ/1662515836305-removebg-preview.png',height: 190,width: 190,),
             SizedBox(height: 5,),
-            Text('Ezyqure',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Color(0xFF0040c2)),),
+            Text('Ezyqure',style: GoogleFonts.notoSansJavanese(color: Color(0xFF0040c2),fontWeight: FontWeight.bold,fontSize: 40)),
             SizedBox(height: 25,),
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+              valueColor: AlwaysStoppedAnimation<Color>( Color(0xFF0040c2)),
             )
           ],
         ),
