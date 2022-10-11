@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:ezyqure/Authentication/Authuser.dart';
 import 'package:ezyqure/Pages/login.dart';
 import 'package:flutter/material.dart';
 import 'package:ezyqure/Pages/welcome.dart';
@@ -17,7 +18,7 @@ class _SplashState extends State<Splash> {
     super.initState();
     Timer(Duration(seconds: 5), () {
       Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (_) => WelcomePage()));
+          .pushReplacement(MaterialPageRoute(builder: (_) => AuthUser()));
     });
   }
 

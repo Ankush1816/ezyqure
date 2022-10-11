@@ -1,5 +1,8 @@
+import 'package:ezyqure/Pages/home_page.dart';
+import 'package:ezyqure/Pages/profile_screen.dart';
 import 'package:ezyqure/Pages/root_app.dart';
 import 'package:flutter/material.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({Key? key}) : super(key: key);
@@ -13,9 +16,8 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Color(0xFF0040c2),),
-      body: getbody(),
-    );
+      body: getbody(),);
+
   }
   
   Widget getAppbar(){

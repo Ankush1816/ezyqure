@@ -1,3 +1,4 @@
+import 'package:ezyqure/Authentication/Userredirect.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -88,11 +89,7 @@ class _loginpageState extends State<loginpage> {
             SignInButtonBuilder(
               backgroundColor: Colors.blue,
               onPressed: () {
-                final provider = Provider.of<GoogleSignInProvider>(
-                  context,
-                  listen: false,
-                );
-                provider.googleLogin();
+            AuthService().signInWithGoogle();
               },
               text: 'Log in with Google',
               image: Image.network(

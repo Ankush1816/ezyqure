@@ -53,7 +53,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   minWidth: 400,
                   onPressed: (){
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (Context) => LoginPage()));
+                        MaterialPageRoute(builder: (Context) => loginpage()));
                   },
                   elevation: 0,
                   shape: RoundedRectangleBorder(
